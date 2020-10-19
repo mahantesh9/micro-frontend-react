@@ -16,8 +16,8 @@ class App extends React.Component {
    render() {
       return (
          <div>
-            <Content1 myDataProp = {this.state.data} 
-               updateStateProp = {this.updateState}></Content1>
+            <Content myDataProp = {this.state.data} 
+               updateStateProp = {this.updateState}></Content>
          </div>
       );
    }
