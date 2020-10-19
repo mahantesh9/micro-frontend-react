@@ -1,18 +1,4 @@
-import React, { Component } from 'react'
-import ValidatedLoginForm from './ValidatedLoginForm';
-import "./styles.css";
-import Content1 from "./Content1";
-
-export class App extends Component {
-    render() {
-        return (
-            <div>
-                <ValidatedLoginForm/>
-                <Content1/>
-            </div>
-        )
-    }
-}
+import React from 'react';
 
 class Content extends React.Component {
     render() {
@@ -28,4 +14,4 @@ class Content extends React.Component {
     }
  }
 
-export default App
+ export default Content;
